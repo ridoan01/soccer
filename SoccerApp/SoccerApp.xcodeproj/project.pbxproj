@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01069EC425EA228A003AC47B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01069EC325EA228A003AC47B /* AppDelegate.swift */; };
+		01069EC625EA228A003AC47B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01069EC525EA228A003AC47B /* SceneDelegate.swift */; };
+		01069EC825EA228A003AC47B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01069EC725EA228A003AC47B /* ViewController.swift */; };
+		01069ECB25EA228A003AC47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01069EC925EA228A003AC47B /* Main.storyboard */; };
+		01069ECE25EA228A003AC47B /* SoccerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01069ECC25EA228A003AC47B /* SoccerApp.xcdatamodeld */; };
+		01069ED025EA228D003AC47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01069ECF25EA228D003AC47B /* Assets.xcassets */; };
+		01069ED325EA228D003AC47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01069ED125EA228D003AC47B /* LaunchScreen.storyboard */; };
+		01069EDE25EA228D003AC47B /* SoccerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01069EDD25EA228D003AC47B /* SoccerAppTests.swift */; };
+		01069EE925EA228D003AC47B /* SoccerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01069EE825EA228D003AC47B /* SoccerAppUITests.swift */; };
+		B0E5B24A38FD76388BD98744 /* Pods_SoccerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2C6DEE4419699CF0183AF /* Pods_SoccerAppTests.framework */; };
+		DA6FB3DDF54EB604EDF69FE3 /* Pods_SoccerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263A5D8CBF9459AD8D7BF77E /* Pods_SoccerApp.framework */; };
+		ECEBC040289BEAA55022AB4B /* Pods_SoccerApp_SoccerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28D41BD57166C9866CCF719 /* Pods_SoccerApp_SoccerAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01069EDA25EA228D003AC47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01069EB825EA2289003AC47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01069EBF25EA228A003AC47B;
+			remoteInfo = SoccerApp;
+		};
+		01069EE525EA228D003AC47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01069EB825EA2289003AC47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01069EBF25EA228A003AC47B;
+			remoteInfo = SoccerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01069EC025EA228A003AC47B /* SoccerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01069EC325EA228A003AC47B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01069EC525EA228A003AC47B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01069EC725EA228A003AC47B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01069ECA25EA228A003AC47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01069ECD25EA228A003AC47B /* SoccerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoccerApp.xcdatamodel; sourceTree = "<group>"; };
+		01069ECF25EA228D003AC47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01069ED225EA228D003AC47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01069ED425EA228D003AC47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01069ED925EA228D003AC47B /* SoccerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01069EDD25EA228D003AC47B /* SoccerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerAppTests.swift; sourceTree = "<group>"; };
+		01069EDF25EA228D003AC47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01069EE425EA228D003AC47B /* SoccerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01069EE825EA228D003AC47B /* SoccerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerAppUITests.swift; sourceTree = "<group>"; };
+		01069EEA25EA228D003AC47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4729DE151A777AEC9F4AB1 /* Pods-SoccerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerAppTests.release.xcconfig"; path = "Target Support Files/Pods-SoccerAppTests/Pods-SoccerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		25EF81DB34FE0414E1F6568D /* Pods-SoccerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SoccerAppTests/Pods-SoccerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		263A5D8CBF9459AD8D7BF77E /* Pods_SoccerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoccerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE2C6DEE4419699CF0183AF /* Pods_SoccerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoccerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9775EAAD5393C113890B711E /* Pods-SoccerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerApp.debug.xcconfig"; path = "Target Support Files/Pods-SoccerApp/Pods-SoccerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		97919245F12DD2AB47C97060 /* Pods-SoccerApp-SoccerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerApp-SoccerAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SoccerApp-SoccerAppUITests/Pods-SoccerApp-SoccerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9CB55D25E4CDF420AA83893 /* Pods-SoccerApp-SoccerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerApp-SoccerAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SoccerApp-SoccerAppUITests/Pods-SoccerApp-SoccerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFC2CBD7979CEE0420661773 /* Pods-SoccerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerApp.release.xcconfig"; path = "Target Support Files/Pods-SoccerApp/Pods-SoccerApp.release.xcconfig"; sourceTree = "<group>"; };
+		E28D41BD57166C9866CCF719 /* Pods_SoccerApp_SoccerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoccerApp_SoccerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01069EBD25EA228A003AC47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6FB3DDF54EB604EDF69FE3 /* Pods_SoccerApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01069ED625EA228D003AC47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E5B24A38FD76388BD98744 /* Pods_SoccerAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01069EE125EA228D003AC47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEBC040289BEAA55022AB4B /* Pods_SoccerApp_SoccerAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01069EB725EA2289003AC47B = {
+			isa = PBXGroup;
+			children = (
+				01069EC225EA228A003AC47B /* SoccerApp */,
+				01069EDC25EA228D003AC47B /* SoccerAppTests */,
+				01069EE725EA228D003AC47B /* SoccerAppUITests */,
+				01069EC125EA228A003AC47B /* Products */,
+				31F809C62F3E621B6B6E2B6C /* Pods */,
+				88ED09A08637D7B61A3F3402 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01069EC125EA228A003AC47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01069EC025EA228A003AC47B /* SoccerApp.app */,
+				01069ED925EA228D003AC47B /* SoccerAppTests.xctest */,
+				01069EE425EA228D003AC47B /* SoccerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01069EC225EA228A003AC47B /* SoccerApp */ = {
+			isa = PBXGroup;
+			children = (
+				01069EC325EA228A003AC47B /* AppDelegate.swift */,
+				01069EC525EA228A003AC47B /* SceneDelegate.swift */,
+				01069EC725EA228A003AC47B /* ViewController.swift */,
+				01069EC925EA228A003AC47B /* Main.storyboard */,
+				01069ECF25EA228D003AC47B /* Assets.xcassets */,
+				01069ED125EA228D003AC47B /* LaunchScreen.storyboard */,
+				01069ED425EA228D003AC47B /* Info.plist */,
+				01069ECC25EA228A003AC47B /* SoccerApp.xcdatamodeld */,
+			);
+			path = SoccerApp;
+			sourceTree = "<group>";
+		};
+		01069EDC25EA228D003AC47B /* SoccerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				01069EDD25EA228D003AC47B /* SoccerAppTests.swift */,
+				01069EDF25EA228D003AC47B /* Info.plist */,
+			);
+			path = SoccerAppTests;
+			sourceTree = "<group>";
+		};
+		01069EE725EA228D003AC47B /* SoccerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01069EE825EA228D003AC47B /* SoccerAppUITests.swift */,
+				01069EEA25EA228D003AC47B /* Info.plist */,
+			);
+			path = SoccerAppUITests;
+			sourceTree = "<group>";
+		};
+		31F809C62F3E621B6B6E2B6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9775EAAD5393C113890B711E /* Pods-SoccerApp.debug.xcconfig */,
+				DFC2CBD7979CEE0420661773 /* Pods-SoccerApp.release.xcconfig */,
+				B9CB55D25E4CDF420AA83893 /* Pods-SoccerApp-SoccerAppUITests.debug.xcconfig */,
+				97919245F12DD2AB47C97060 /* Pods-SoccerApp-SoccerAppUITests.release.xcconfig */,
+				25EF81DB34FE0414E1F6568D /* Pods-SoccerAppTests.debug.xcconfig */,
+				0A4729DE151A777AEC9F4AB1 /* Pods-SoccerAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88ED09A08637D7B61A3F3402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				263A5D8CBF9459AD8D7BF77E /* Pods_SoccerApp.framework */,
+				E28D41BD57166C9866CCF719 /* Pods_SoccerApp_SoccerAppUITests.framework */,
+				2FE2C6DEE4419699CF0183AF /* Pods_SoccerAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01069EBF25EA228A003AC47B /* SoccerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01069EED25EA228D003AC47B /* Build configuration list for PBXNativeTarget "SoccerApp" */;
+			buildPhases = (
+				7BB11948818668E5C745345E /* [CP] Check Pods Manifest.lock */,
+				01069EBC25EA228A003AC47B /* Sources */,
+				01069EBD25EA228A003AC47B /* Frameworks */,
+				01069EBE25EA228A003AC47B /* Resources */,
+				6AE46565D9113BFBFB82F3DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoccerApp;
+			productName = SoccerApp;
+			productReference = 01069EC025EA228A003AC47B /* SoccerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01069ED825EA228D003AC47B /* SoccerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01069EF025EA228D003AC47B /* Build configuration list for PBXNativeTarget "SoccerAppTests" */;
+			buildPhases = (
+				B532A3848554983FB9F319CC /* [CP] Check Pods Manifest.lock */,
+				01069ED525EA228D003AC47B /* Sources */,
+				01069ED625EA228D003AC47B /* Frameworks */,
+				01069ED725EA228D003AC47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01069EDB25EA228D003AC47B /* PBXTargetDependency */,
+			);
+			name = SoccerAppTests;
+			productName = SoccerAppTests;
+			productReference = 01069ED925EA228D003AC47B /* SoccerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01069EE325EA228D003AC47B /* SoccerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01069EF325EA228D003AC47B /* Build configuration list for PBXNativeTarget "SoccerAppUITests" */;
+			buildPhases = (
+				2DB10A7BF52E1A6D1BC19296 /* [CP] Check Pods Manifest.lock */,
+				01069EE025EA228D003AC47B /* Sources */,
+				01069EE125EA228D003AC47B /* Frameworks */,
+				01069EE225EA228D003AC47B /* Resources */,
+				14D16C5EE64CD28E0AA1FFA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01069EE625EA228D003AC47B /* PBXTargetDependency */,
+			);
+			name = SoccerAppUITests;
+			productName = SoccerAppUITests;
+			productReference = 01069EE425EA228D003AC47B /* SoccerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01069EB825EA2289003AC47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					01069EBF25EA228A003AC47B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					01069ED825EA228D003AC47B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 01069EBF25EA228A003AC47B;
+					};
+					01069EE325EA228D003AC47B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 01069EBF25EA228A003AC47B;
+					};
+				};
+			};
+			buildConfigurationList = 01069EBB25EA2289003AC47B /* Build configuration list for PBXProject "SoccerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01069EB725EA2289003AC47B;
+			productRefGroup = 01069EC125EA228A003AC47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01069EBF25EA228A003AC47B /* SoccerApp */,
+				01069ED825EA228D003AC47B /* SoccerAppTests */,
+				01069EE325EA228D003AC47B /* SoccerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01069EBE25EA228A003AC47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01069ED325EA228D003AC47B /* LaunchScreen.storyboard in Resources */,
+				01069ED025EA228D003AC47B /* Assets.xcassets in Resources */,
+				01069ECB25EA228A003AC47B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01069ED725EA228D003AC47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01069EE225EA228D003AC47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D16C5EE64CD28E0AA1FFA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoccerApp-SoccerAppUITests/Pods-SoccerApp-SoccerAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoccerApp-SoccerAppUITests/Pods-SoccerApp-SoccerAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoccerApp-SoccerAppUITests/Pods-SoccerApp-SoccerAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB10A7BF52E1A6D1BC19296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoccerApp-SoccerAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE46565D9113BFBFB82F3DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoccerApp/Pods-SoccerApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoccerApp/Pods-SoccerApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoccerApp/Pods-SoccerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BB11948818668E5C745345E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoccerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B532A3848554983FB9F319CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoccerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01069EBC25EA228A003AC47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01069EC825EA228A003AC47B /* ViewController.swift in Sources */,
+				01069EC425EA228A003AC47B /* AppDelegate.swift in Sources */,
+				01069ECE25EA228A003AC47B /* SoccerApp.xcdatamodeld in Sources */,
+				01069EC625EA228A003AC47B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01069ED525EA228D003AC47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01069EDE25EA228D003AC47B /* SoccerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01069EE025EA228D003AC47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01069EE925EA228D003AC47B /* SoccerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01069EDB25EA228D003AC47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01069EBF25EA228A003AC47B /* SoccerApp */;
+			targetProxy = 01069EDA25EA228D003AC47B /* PBXContainerItemProxy */;
+		};
+		01069EE625EA228D003AC47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01069EBF25EA228A003AC47B /* SoccerApp */;
+			targetProxy = 01069EE525EA228D003AC47B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01069EC925EA228A003AC47B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01069ECA25EA228A003AC47B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01069ED125EA228D003AC47B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01069ED225EA228D003AC47B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01069EEB25EA228D003AC47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01069EEC25EA228D003AC47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01069EEE25EA228D003AC47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9775EAAD5393C113890B711E /* Pods-SoccerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AE8YM33757;
+				INFOPLIST_FILE = SoccerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techbrigde.SoccerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01069EEF25EA228D003AC47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC2CBD7979CEE0420661773 /* Pods-SoccerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AE8YM33757;
+				INFOPLIST_FILE = SoccerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techbrigde.SoccerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01069EF125EA228D003AC47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25EF81DB34FE0414E1F6568D /* Pods-SoccerAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AE8YM33757;
+				INFOPLIST_FILE = SoccerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techbrigde.SoccerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoccerApp.app/SoccerApp";
+			};
+			name = Debug;
+		};
+		01069EF225EA228D003AC47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4729DE151A777AEC9F4AB1 /* Pods-SoccerAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AE8YM33757;
+				INFOPLIST_FILE = SoccerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techbrigde.SoccerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoccerApp.app/SoccerApp";
+			};
+			name = Release;
+		};
+		01069EF425EA228D003AC47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CB55D25E4CDF420AA83893 /* Pods-SoccerApp-SoccerAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AE8YM33757;
+				INFOPLIST_FILE = SoccerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techbrigde.SoccerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoccerApp;
+			};
+			name = Debug;
+		};
+		01069EF525EA228D003AC47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97919245F12DD2AB47C97060 /* Pods-SoccerApp-SoccerAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AE8YM33757;
+				INFOPLIST_FILE = SoccerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techbrigde.SoccerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoccerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01069EBB25EA2289003AC47B /* Build configuration list for PBXProject "SoccerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01069EEB25EA228D003AC47B /* Debug */,
+				01069EEC25EA228D003AC47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01069EED25EA228D003AC47B /* Build configuration list for PBXNativeTarget "SoccerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01069EEE25EA228D003AC47B /* Debug */,
+				01069EEF25EA228D003AC47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01069EF025EA228D003AC47B /* Build configuration list for PBXNativeTarget "SoccerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01069EF125EA228D003AC47B /* Debug */,
+				01069EF225EA228D003AC47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01069EF325EA228D003AC47B /* Build configuration list for PBXNativeTarget "SoccerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01069EF425EA228D003AC47B /* Debug */,
+				01069EF525EA228D003AC47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01069ECC25EA228A003AC47B /* SoccerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01069ECD25EA228A003AC47B /* SoccerApp.xcdatamodel */,
+			);
+			currentVersion = 01069ECD25EA228A003AC47B /* SoccerApp.xcdatamodel */;
+			path = SoccerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01069EB825EA2289003AC47B /* Project object */;
+}
